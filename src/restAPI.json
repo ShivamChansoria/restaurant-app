@@ -4,23 +4,23 @@
         "ourQualities": [
             {
                 "id": 1,
-                "image": "../public/images/thali.png",
+                "image": "../public/thali.png",
                 "title": "QUALITY FOOD",
                 "description": "Lorem ipsum dolor sit amet, consectetur adip"
             },
             {
                 "id": 1,
-                "image": "../public/images/thali.png",
+                "image": "../public/thali.png",
                 "title": "ECO FRIENDLY PACKING",
                 "description": "Lorem ipsum dolor sit amet, consectetur adip"
             },   {
                 "id": 1,
-                "image": "../public/images/thali.png",
+                "image": "../public/thali.png",
                 "title": "SUPER TASTE",
                 "description": "Lorem ipsum dolor sit amet, consectetur adip"
             },   {
                 "id": 1,
-                "image": "../public/images/thali.png",
+                "image": "../public/thali.png",
                 "title": "FAST DELIVERY",
                 "description": "Lorem ipsum dolor sit amet, consectetur adip"
             }
@@ -28,56 +28,56 @@
         "dishes": [
             {
                 "id": 1,
-                "image": "../public/images/chinese-1.jpg",
+                "image": "../public/chinese-1.jpg",
                 "title": "Spicy Ramen",
                 "category": "Snacks",
                 "description": "A steaming bowl of ramen with rich broth, tender noodles, and a kick of chili."
             },
             {
                 "id": 2,
-                "image": "../public/images/chinese-2.jpg",
+                "image": "../public/chinese-2.jpg",
                 "category": "Snacks",
                 "title": "Chinese Ramen",
                 "description": "Sliced avocado on toasted whole-grain bread, drizzled with olive oil and sprinkled with sea salt."
             },
             {
                 "id": 3,
-                "image": "../public/images/chinese-1.jpg",
+                "image": "../public/chinese-1.jpg",
                 "category": "Dinner",
                 "title": "Noodles",
                 "description": "Handcrafted dark chocolate truffles dusted with cocoa powder."
             },
             {
                 "id": 4,
-                "image": "../public/images/dinner-1.jpg",
+                "image": "../public/dinner-1.jpg",
                 "category": "Dinner",
                 "title": "Dinner 1",
                 "description": "Fresh mozzarella, juicy tomatoes, and basil leaves drizzled with balsamic glaze."
             },
             {
                 "id": 5,
-                "image": "../public/images/dinner-2.jpg",
+                "image": "../public/dinner-2.jpg",
                 "category": "Dinner",
                 "title": "Dinner 2",
                 "description": "Assorted sushi rolls, sashimi, and pickled ginger served on a wooden platter."
             },
             {
                 "id": 6,
-                "image": "../public/images/VegBiryani4.jpg",
+                "image": "../public/VegBiryani4.jpg",
                 "category": "Snacks 2",
                 "title": "Biryani",
                 "description": "Assorted sushi rolls, sashimi, and pickled ginger served on a wooden platter."
             },
             {
                 "id": 7,
-                "image": "../public/images/chinese-2.jpg",
+                "image": "../public/chinese-2.jpg",
                 "category": "Snacks",
                 "title": "Momos",
                 "description": "Assorted sushi rolls, sashimi, and pickled ginger served on a wooden platter."
             },
             {
                 "id": 8,
-                "image": "../public/images/snacks-1.jpg",
+                "image": "../public/snacks-1.jpg",
                 "category": "Snacks",
                 "title": "Snacks",
                 "description": "Assorted sushi rolls, sashimi, and pickled ginger served on a wooden platter."
