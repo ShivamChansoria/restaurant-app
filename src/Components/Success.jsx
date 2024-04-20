@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Sections/Navbar";
 import { Toaster } from "react-hot-toast";
+import { useEffect, useState } from "react";
+
 
 const Success = () => {
 
@@ -9,6 +11,21 @@ const Success = () => {
         e.preventDefault();
         navigate("/");
     };
+
+
+    const  [countDown, setcountDown] = useState(10);
+    useEffect(()=>{
+        const timeOut= setInterval(() => {
+          setcountDown((prevCount)=>{
+            if(prevCount ===1){
+            clearInterval(timeOut);
+            navigate("/");
+            }
+            return prevCount-1;
+          });
+        }, 1000);
+        return ()=> clearInterval(timeOut);
+    },[navigate])
 
   return (
     <>
@@ -23,22 +40,14 @@ const Success = () => {
             <h1 className="text-7xl font-bold">
               Your RESERVATION is Successfully Made !!
             </h1>
-            <p className="py-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-              obcaecati quo placeat doloribus libero numquam illum. Laborum
-              optio esse repellat eius rerum, quas, suscipit voluptatibus ut
-              beatae unde fugit dolore officiis aspernatur mollitia, quod
-              provident quaerat vero eaque. Dolores, vitae. Amet quibusdam autem
-              tempore exercitationem? Soluta itaque rem, id molestias maxime
-              tempore. Est labore dolores, corrupti minus quis tempore
-              dignissimos fugit aut reiciendis optio molestias officia ipsam ut
-              exercitationem incidunt!
+            <p className="py-6 text-5xl text-secondary">
+             Redirecting you to Home Page in {countDown} seconds ...
             </p>
             <button className="btn btn-primary" onClick={handleClick}>Go back Home</button>
           </div>
         </div>
       </div>
-      <div className="diff aspect-[16/9]">
+      <div className="diff aspect-[16/9] h-80">
         <div className="diff-item-1">
           <div className="bg-primary text-primary-content text-9xl font-black grid place-content-center text tracking-widest">
             THANK YOU 3000;
